@@ -1,34 +1,32 @@
-const prato01 = pipoca;
-let tempo01 = 10;
+const tipoDePrato ={
+    pipoca:{tipo:"pipoca", tempo: 10}, 
+    macarrao:{tipo:"macarrao", tempo: 8},
+    carne:{tipo:"carne", tempo: 15},
+    feijao:{tipo:"feijao", tempo: 12},
+    brigadeiro:{tipo:"brigadeiro", tempo: 8},
+}
 
-
-function preparar (prato01, tempo01) {
-    const prato01 = prato;
-
-    if(!prato01) {
-        return console.log ("Prato inexistente");
+function preparar (escolhaPrato, tempo) {
+    const escolhaPrato = tipoDePrato[""];
+    
+    if(!tipoDePrato) { 
+        return console.log ("Prato inexistente!");
     }
 
+
+    let = msg;
+    
     if (tempoCorreto > tempo) {
         msg = "Tempo insuficiente";
-    }
-
-    else if (tempo > tempoCorreto * 2) {
+    }    else if (tempo > tempoCorreto * 2) {
         msg = "A comida queimou";
-    }
-
-    else if (tempo > tempoCorreto * 3) {
+    }    else if (tempo > tempoCorreto * 3) {
         msg = "Kabummm";
-    }
-
-    else {
+    }    else {
         msg = "Prato pronto, bom apetite!!!";
     }
 
     return console.log(msg);
-
-    if("pipoca") {
-        return console.log ("Prato inexistente");
-    }
+  
 
 }
